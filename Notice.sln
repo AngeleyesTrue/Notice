@@ -5,9 +5,16 @@ VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A5AAEA1F-8266-4780-BDD1-CDDF3E31A3FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AE.Notice.WebApp", "src\AE.Notice.WebApp\AE.Notice.WebApp.csproj", "{4F347BAB-D30A-4C42-B2BD-91057D685444}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AE.Notice.WebApp", "src\AE.Notice.WebApp\AE.Notice.WebApp.csproj", "{4F347BAB-D30A-4C42-B2BD-91057D685444}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AE.Notice.Common", "src\AE.Notice.Common\AE.Notice.Common.csproj", "{F16D7D15-9B18-4630-9053-ED8433BA4E79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AE.Notice.Common", "src\AE.Notice.Common\AE.Notice.Common.csproj", "{F16D7D15-9B18-4630-9053-ED8433BA4E79}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루션 항목", "{6DC3CC50-2B2B-444F-980D-C3BCF0BE073D}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{70BD4096-440D-4D83-B2D7-DD721F7D4629}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +30,10 @@ Global
 		{F16D7D15-9B18-4630-9053-ED8433BA4E79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F16D7D15-9B18-4630-9053-ED8433BA4E79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F16D7D15-9B18-4630-9053-ED8433BA4E79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70BD4096-440D-4D83-B2D7-DD721F7D4629}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70BD4096-440D-4D83-B2D7-DD721F7D4629}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70BD4096-440D-4D83-B2D7-DD721F7D4629}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70BD4096-440D-4D83-B2D7-DD721F7D4629}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
